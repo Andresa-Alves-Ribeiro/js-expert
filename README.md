@@ -9,7 +9,8 @@
 
 ## Live demo
 
-- Para testar o projeto final [clique aqui]()
+- Para testar o projeto final [clique aqui](https://andresa-alves-ribeiro.github.io/js-expert/)
+
 ## Running
 - Execute `npm ci` na pasta que contém o arquivo `package.json` para restaurar os pacotes
 - Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar a página acima
