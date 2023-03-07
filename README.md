@@ -1,21 +1,31 @@
-# JSExpertMax Gesture Controller - Semana JS Expert 7.0
+<h1 align="center"> 
+	 JSExpertMax Gesture Controller
+</h1>
 
-## Preview
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-vitrine-dev">Vitrine Dev</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-autor">Autor</a> • 
+ <a href="#-licença">Licença</a>
+</p>
+
+&nbsp;
+
+**Desktop View**
 <img width=100% src="./demo-template-lg.gif">
 
-## Pre-requisitos
-- Este projeto foi criado usando Node.js v19.6
-- O ideal é que você use o projeto em ambiente Unix (Linux). Se você estiver no Windows, é recomendado que use o [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) pois nas aulas são mostrados comandos Linux que possam não existir no Windows.
+&nbsp;
+<a id="-sobre-o-projeto"></a>
 
-## Live demo
+## 💻 Sobre o projeto
 
-- Para testar o projeto final [clique aqui](https://andresa-alves-ribeiro.github.io/js-expert/)
+Esta é a minha solução para o desafio da sétima Semana Javascript Expert. Que ajuda a melhorar as habilidades de Javascript avançado criando projetos realistas.
+Aprendi a usar inteligência artificial junto com Javascript avançado.
 
-## Running
-- Execute `npm ci` na pasta que contém o arquivo `package.json` para restaurar os pacotes
-- Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar a página acima
+Possui as funcionalidades de:
 
-## Checklist Features
 - Titles List
   - [x] - Campo para pesquisa não deve travar ao digitar termo de pesquisa
   - [x] - Deve desenhar mãos na tela e fazer com que elementos em segundo plano  continuem sendo clicáveis  🙌
@@ -28,23 +38,81 @@
   - [x] - Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
   - [x] - Todo processamento de Machine Learning deve ser feito via Web worker
 
-### FAQ
-- browser-sync está lançando erros no Windows e nunca inicializa:
-  - Solução: Trocar o browser-sync pelo http-server.
-    1. instale o **http-server**  com `npm i -D http-server`
-    2. no package.json apague todo o comando do `browser-sync` e substitua por `npx http-server .`
-    3. agora o projeto vai estar executando na :8080 então vá no navegador e tente acessar o http://localhost:8080/
-  A unica coisa, é que o projeto não vai reiniciar quando voce alterar algum código, vai precisar dar um F5 na página toda vez que alterar algo
-- Erro no navegador de Webgl is not supported on this device
-    - Digite chrome://gpu/ no Chrome para verificar se o webgl está habilitado.
-    - Possíveis soluções:
-      1. Opção 1: Habilitar a aceleração de hardware quando dispponível
-       -  Chrome => Settings > System > Use hardware acceleration when available
-       -  Firefox => Browser options > Performance > Use hardware acceleration when available
-      2. Opção 2: Atualizar driver da placa de vídeo
-      - Veja detalhes no [webgl-is-not-supported-on-chrome-firefox](https://www.thewindowsclub.com/webgl-is-not-supported-on-chrome-firefox)
-      3. Opção 3: Trocar de WebGL para CPU (mais lento) ou Web Assembly
-        - https://blog.tensorflow.org/2020/03/introducing-webassembly-backend-for-tensorflow-js.html
-  
-### Créditos ao Layout
-- Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
+&nbsp;
+
+<p align="center">
+  <a href="https://github.com/Andresa-Alves-Ribeiro/js-expert/issues"><img src="https://img.shields.io/github/issues/Andresa-Alves-Ribeiro/js-expert" alt="issue app" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/js-expert"><img src="https://img.shields.io/github/languages/count/Andresa-Alves-Ribeiro/js-expert" alt="total amount of programming languages used in the project" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/js-expert"><img src="https://img.shields.io/github/languages/top/Andresa-Alves-Ribeiro/js-expert" alt="most used language in the projects" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/js-expert"><img src="https://img.shields.io/github/repo-size/Andresa-Alves-Ribeiro/js-expert" alt="repository size" /></a>
+<p>
+
+---
+
+&nbsp;
+<a id="-vitrine-dev"></a>
+
+## 📺 Vitrine Dev
+
+| :placard: Vitrine.Dev |                                                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :sparkles: Nome       | **JSExpertMax Gesture Controller**                                                  |
+| :label: Tecnologias   | JavaScript, HTML5, CSS, Node.js, tensorflow-js |
+
+---
+
+&nbsp;
+<a id="-tecnologias"></a>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+&nbsp;
+
+<p align="center">
+  <a href= "https://html5.org/"><img alt="html 5 badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E34F26&logo=HTML5&label=Markup Language&message=HTML5&color=E34F26"></a>
+  <a href= "https://www.w3.org/Style/CSS"><img alt="CSS badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=FFC0CB&logo=css3&label=Style&message=CSS&color=FFC0CB"></a>
+  <a href= "https://www.javascript.com/"><img alt="JavaScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=F7DF1E&logo=JavaScript&label=Language&message=JavaScript&color=F7DF1E"></a>
+  <a href= "https://www.tensorflow.org/js?hl=pt-br"><img alt="Tensorflow badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=7658c6&logo=tensorflow&label=Language&message=Tensorflow.js&color=7658c6"></a>
+  <a href= "https://code.visualstudio.com/download"><img alt="vscode download" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=007ACC&logo=Visual Studio Code&label=IDE&message=Visual Studio Code&color=007ACC"></a>
+</p>
+
+---
+
+
+&nbsp;
+<a id="-funcionalidades"></a>
+
+## ⚙️ Funcionalidades
+
+Você pode acessar o link abaixo e visualizar o deploy:
+
+&nbsp;
+
+https://andresa-alves-ribeiro.github.io/js-expert/
+
+&nbsp;
+
+&nbsp;
+<a id="-autor"></a>
+
+## 🦸 Autor
+
+Olá, eu sou Andresa A Ribeiro, desenvolvedora Front-end/Full-Stack, estudando Sistemas de Informação e cada dia com mais sede de aprender.
+
+<p align="center">
+  <a href="mailto:andresa_15ga@hotmail.com"><img src="https://img.shields.io/static/v1?logoWidth=15&logoColor=ff69b4&logo=gmail&label=Outlook&message=andresa_15ga@hotmail.com&color=ff69b4" target="_blank">
+  <a href= "https://www.linkedin.com/in/andresa-alves-ribeiro/"><img alt="perfil linkedin Andresa Alves" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=0A66C2&logo=LinkedIn&label=LinkedIn&message=andresa-alves-ribeiro&color=0A66C2"></a>
+  <a href= "https://www.instagram.com/dresa.alves/"><img alt="perfil instagram Andresa Alves" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E4405F&logo=Instagram&label=Instagram&message=@dresa.alves&color=E4405F"></a>
+</p>
+
+---
+
+&nbsp;
+<a id="-licença"></a>
+
+## 📝 Licença
+
+Este projeto é [MIT licensed](./LICENSE).
+
