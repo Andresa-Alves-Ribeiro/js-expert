@@ -1,7 +1,7 @@
 # JSExpertMax Gesture Controller - Semana JS Expert 7.0
 
 ## Preview
-<img width=100% src="./initial-template/assets/demo-template-lg.gif">
+<img width=100% src="./demo-template-lg.gif">
 
 ## Pre-requisitos
 - Este projeto foi criado usando Node.js v19.6
