@@ -7,6 +7,7 @@
  <a href="#-vitrine-dev">Vitrine Dev</a> •
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-creditos">Créditos</a> •
  <a href="#-autor">Autor</a> • 
  <a href="#-licença">Licença</a>
 </p>
@@ -92,7 +93,28 @@ Você pode acessar o link abaixo e visualizar o deploy:
 
 https://andresa-alves-ribeiro.github.io/js-expert/
 
+**OU**
+
+Execute </br>
+```bash
+npm ci
+```
+</br>
+na pasta que contém o arquivo package.json para restaurar os pacotes. </br>
+
+Execute
+```bash
+npm start
+```
+</br>
+e em seguida vá para o seu navegador em **http://localhost:3000** para visualizar a página acima.
+
 &nbsp;
+<a id="-creditos"></a>
+
+## 🖵 Créditos ao Layout
+
+- Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
 
 &nbsp;
 <a id="-autor"></a>
@@ -115,4 +137,3 @@ Olá, eu sou Andresa A Ribeiro, desenvolvedora Front-end/Full-Stack, estudando S
 ## 📝 Licença
 
 Este projeto é [MIT licensed](./LICENSE).
-
