@@ -15,6 +15,8 @@
 &nbsp;
 
 **Desktop View**
+![web](https://user-images.githubusercontent.com/94997593/236073011-a7924154-b77c-45b2-b079-5ac245211bf9.png)
+
 <img width=100% src="./demo-template-lg.gif">
 
 &nbsp;
@@ -58,7 +60,7 @@ Possui as funcionalidades de:
 | :placard: Vitrine.Dev |                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | :sparkles: Nome       | **JSExpertMax Gesture Controller**                                                  |
-| :label: Tecnologias   | JavaScript, HTML5, CSS, Node.js, tensorflow-js |
+| :label: Tecnologias   | JavaScript, HTML5, CSS, Node.js, Tensorflow-js |
 
 ---
 
